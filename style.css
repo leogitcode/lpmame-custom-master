@@ -1,0 +1,52 @@
+html, body {
+    background-color: black;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.2;
+    font-size: 18px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p.sparator {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem; 
+}
+
+.elementor img {
+    width: 100px;
+    max-width: 450px;
+}
+
+.container-sm {
+    max-width: 600px;
+}
+
+@media (max-width:767px) {
+    .elementor-hidden-phone {
+        display: none
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .elementor-hidden-tablet {
+        display: none
+    }
+}
+
+@media (min-width:1025px) {
+    .elementor-hidden-desktop {
+        display: none
+    }
+}
+
+.headline {
+    font-family: 'Amaranth', sans-serif;
+}
+
+.btn-headline {
+    background-color: #006905;
+    border-color: #ffffff;
+}
